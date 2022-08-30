@@ -13,7 +13,7 @@ def is_cyclops(n):
 
     while length > 0:
         print(length)
-        if (length-1) == (mid):
+        if (length-1) == mid:
             n = n // 10
             length -= 1
 
