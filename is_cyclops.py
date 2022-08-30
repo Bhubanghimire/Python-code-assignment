@@ -9,13 +9,7 @@ return either ​ True​ or ​ False​ accordingly.
 def is_cyclops(n):
     status = True
     length = int(len(str(n)))
-    # if length % 2 == 0:
-    #     return False
-
     mid = int(length / 2)
-    # print(mid)
-    # if int(str(n)[mid]) != 0:
-    #     return False
 
     while length > 0:
         print(length)
