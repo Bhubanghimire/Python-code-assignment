@@ -20,6 +20,6 @@ def count_dominators(lst):
     return n
 
 
-items = [42, 55, 12, 19, 2, 1, 0]
+items = [1, 42, 55, 12, 19, 2, 1]
 result = count_dominators(items)
 print("length:", result)
